@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id=":Topics-The_while_and_do-while_loops-The_length_of_the_sequence" external.linked.project.path="$MODULE_DIR$/../../../../../Topics/The while and do-while loops/The length of the sequence" external.root.project.path="$MODULE_DIR$/../../../../.." external.system.id="GRADLE" external.system.module.group="Chuck Norris Cipher Encoder1" external.system.module.version="unspecified" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../../../../Topics/The while and do-while loops/The length of the sequence">
+      <excludeFolder url="file://$MODULE_DIR$/../../../../../Topics/The while and do-while loops/The length of the sequence/.gradle" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../../../Topics/The while and do-while loops/The length of the sequence/build" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../../../Topics/The while and do-while loops/The length of the sequence/out" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

@@ -1,0 +1,24 @@
+type: code
+files:
+- name: src/Main.java
+  visible: true
+  text: |-
+    class Person {
+
+    }
+
+    class Employee {
+
+    }
+
+    class Doctor {
+
+    }
+
+    class Patient {
+
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/8309#comment
+status: Unchecked
+record: -1

@@ -1,0 +1,21 @@
+type: code
+files:
+- name: src/Main.java
+  visible: true
+  text: |-
+    // update the class
+    class UncheckedException extends ...{
+
+    }
+
+    //do not change the code
+    class Main {
+        public static void main(String[] args) {
+            UncheckedException uncheckedException = new UncheckedException();
+            System.out.println(uncheckedException instanceof RuntimeException);
+        }
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/16172#comment
+status: Unchecked
+record: -1

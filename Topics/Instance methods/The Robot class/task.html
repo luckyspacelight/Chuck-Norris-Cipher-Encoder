@@ -1,0 +1,46 @@
+<h2>The Robot class</h2>
+<p>There is a class <code class="language-java">Robot</code> for representing walking robots.</p>
+
+<p>The robot lives on a 2-D plane. In this robot world, all distances are measured in steps. The robot can take some steps in any of the four directions: left, right, forward (up) and backward (down), but its coordinates are always limited: <code class="language-java">x &gt;= 0, y &gt;=0</code>.</p>
+
+<pre><code class="language-java">public class Robot {    
+    int x, y;
+
+    public void moveRight(int steps) {
+        x += steps;
+    }
+
+    public void moveUp(int steps) {
+        y += steps;
+    }
+
+    public void moveLeft(int steps) {
+        x -= steps;
+        if (x &lt; 0) {
+            x = 0;
+        }
+    }
+
+    public void moveDown(int steps) {
+        y -= steps;
+        if (y &lt; 0) {
+            y = 0;
+        }
+    }
+}</code></pre>
+
+<p> </p>
+
+<p>Where will the robot be after the following code is executed? Select a pair <code class="language-java">(x, y)</code>.</p>
+
+<p> </p>
+
+<pre><code class="language-java">Robot ben = new Robot();
+
+ben.moveRight(3);
+ben.moveUp(2);
+ben.moveLeft(4);
+ben.moveUp(2);
+ben.moveRight(1);</code></pre>
+
+<p>We suppose that the initial coordinates are <code class="language-java">(0, 0)</code>.</p>

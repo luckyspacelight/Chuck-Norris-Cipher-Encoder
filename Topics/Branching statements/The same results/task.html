@@ -1,0 +1,33 @@
+<h2>The same results</h2>
+<p>Choose two loops that produce the same result.</p>
+
+<p>a)</p>
+
+<pre><code class="language-java">int i = 0;
+while (i &lt; 10) {
+    System.out.print(i);
+    if (i == 5) {
+        break;
+    }
+    i++;
+}</code></pre>
+
+<p>b)</p>
+
+<pre><code class="language-java">int j = 0;
+while (j &lt; 10) {
+    j++;
+    if (j == 5) {
+        continue;
+    }
+    System.out.print(j);
+}</code></pre>
+
+<p>c)</p>
+
+<pre><code class="language-java">for (int k = 0; k &lt; 10; k++) {
+    if (k &gt; 5) {
+        continue;
+    }
+    System.out.print(k);
+}</code></pre>

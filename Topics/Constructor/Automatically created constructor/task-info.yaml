@@ -1,0 +1,24 @@
+type: choice
+is_multiple_choice: false
+options:
+- text: copy constructor
+- text: private constructor
+- text: parameterized constructor
+- text: generic constructor
+- text: default no-arg constructor
+files:
+- name: src/Task.java
+  visible: true
+  text: |
+    // You can experiment here, it won’t be checked
+
+    public class Task {
+      public static void main(String[] args) {
+        // put your code here
+      }
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/1983#comment
+status: Solved
+record: -1
+local_check: false

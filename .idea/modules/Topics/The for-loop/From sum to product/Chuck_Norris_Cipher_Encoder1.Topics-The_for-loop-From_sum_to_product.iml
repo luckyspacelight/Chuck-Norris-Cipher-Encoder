@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id=":Topics-The_for-loop-From_sum_to_product" external.linked.project.path="$MODULE_DIR$/../../../../../Topics/The for-loop/From sum to product" external.root.project.path="$MODULE_DIR$/../../../../.." external.system.id="GRADLE" external.system.module.group="Chuck Norris Cipher Encoder1" external.system.module.version="unspecified" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../../../../Topics/The for-loop/From sum to product">
+      <excludeFolder url="file://$MODULE_DIR$/../../../../../Topics/The for-loop/From sum to product/.gradle" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../../../Topics/The for-loop/From sum to product/build" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../../../Topics/The for-loop/From sum to product/out" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

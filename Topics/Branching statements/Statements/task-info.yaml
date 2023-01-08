@@ -1,0 +1,26 @@
+type: choice
+is_multiple_choice: true
+options:
+- text: The <b>break</b> and <b>continue</b> statements behave the same.
+- text: The <b>break</b> statement can be used inside the <b>for</b> and <b>while</b>
+    loops to exit the loop.
+- text: The <b>continue</b> statement can be used inside the <b>for</b> and <b>while</b>
+    loops to skip the current iteration.
+- text: The <b>break</b> statement inside a nested <b>for</b> loop allows exit from
+    this loop and external loops.
+files:
+- name: src/Task.java
+  visible: true
+  text: |
+    // You can experiment here, it won’t be checked
+
+    public class Task {
+      public static void main(String[] args) {
+        // put your code here
+      }
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/1967#comment
+status: Solved
+record: -1
+local_check: false

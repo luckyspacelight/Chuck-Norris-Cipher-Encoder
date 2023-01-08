@@ -1,0 +1,35 @@
+type: code
+files:
+- name: src/Main.java
+  visible: true
+  text: |-
+    class Employee {
+
+        // write fields
+
+        // write constructor
+
+        // write getters
+    }
+
+    class Developer extends Employee {
+
+        // write fields
+
+        // write constructor
+
+        // write getters
+    }
+
+    class DataAnalyst extends Employee {
+
+        // write fields
+
+        // write constructor
+
+        // write getters
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/2206#comment
+status: Unchecked
+record: -1

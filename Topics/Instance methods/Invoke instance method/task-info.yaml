@@ -1,0 +1,23 @@
+type: choice
+is_multiple_choice: false
+options:
+- text: You can't invoke instance method outside of the class
+- text: "write an object name, -&gt; and then the name of the method"
+- text: " write the class name, dot and then the name of a method (e.g. <b>MyClass.method()</b>)"
+- text: "write the object name, dot and then the name of a method"
+files:
+- name: src/Task.java
+  visible: true
+  text: |
+    // You can experiment here, it won’t be checked
+
+    public class Task {
+      public static void main(String[] args) {
+        // put your code here
+      }
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/3779#comment
+status: Solved
+record: -1
+local_check: false

@@ -1,0 +1,25 @@
+type: choice
+is_multiple_choice: false
+options:
+- text: "public static int sumAll(int[] nums)"
+- text: "public static int sumAll(int num1, int num2, int num3)"
+- text: "public static int sumAll(int nums[])"
+- text: public static int sumAll(int.. nums)
+- text: public static int sumAll(int nums...)
+- text: public static int sumAll(int... nums)
+files:
+- name: src/Task.java
+  visible: true
+  text: |
+    // You can experiment here, it won’t be checked
+
+    public class Task {
+      public static void main(String[] args) {
+        // put your code here
+      }
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/2036#comment
+status: Solved
+record: -1
+local_check: false

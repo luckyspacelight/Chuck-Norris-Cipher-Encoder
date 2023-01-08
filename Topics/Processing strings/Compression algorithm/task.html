@@ -1,0 +1,9 @@
+<h2>Compression algorithm</h2>
+<p>Upon learning that DNA is not a random string, freshmen of the Bioinformatics Institute from the informatics group suggested using a compression algorithm that compresses repeated characters in a string.</p>
+
+<p>Encoding is performed as follows:<br>
+The string <strong>"aaaabbсaa"</strong> is converted into <strong>"a4b2с1a2"</strong>, that is, the groups of the same characters of the input string are replaced by the symbol and the number of its repetitions in this string.</p>
+
+<p>Write a program, which reads the string, encodes it by this algorithm and outputs the encoded sequence. The encoding must be case sensitive.</p>
+
+<p>Note, string can contain only a single character.</p><br><b>Sample Input:</b><br><pre><code class="language-no-highlight">aaaabbcaa</code></pre><br><b>Sample Output:</b><br><pre><code class="language-no-highlight">a4b2c1a2</code></pre><br><br><b>Sample Input:</b><br><pre><code class="language-no-highlight">abc</code></pre><br><b>Sample Output:</b><br><pre><code class="language-no-highlight">a1b1c1</code></pre><br><br><b>Sample Input:</b><br><pre><code class="language-no-highlight">aaaaa</code></pre><br><b>Sample Output:</b><br><pre><code class="language-no-highlight">a5</code></pre><br><br><br><font color="gray">Memory limit: 256 MB</font><br><font color="gray">Time limit: 5 seconds</font><br><br>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id=":Chuck_Norris_Cipher_Encoder-task-build-reports-tests:main" external.linked.project.path="$MODULE_DIR$/../../../../../../../Chuck Norris Cipher Encoder/task/build/reports/tests" external.root.project.path="$MODULE_DIR$/../../../../../../.." external.system.id="GRADLE" external.system.module.group="Chuck Norris Cipher Encoder1" external.system.module.type="sourceSet" external.system.module.version="unspecified" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../../../../../../../Chuck Norris Cipher Encoder/task/build/reports/tests/out/production/classes" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../../../../../../Chuck Norris Cipher Encoder/task/build/reports/tests/src" />
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

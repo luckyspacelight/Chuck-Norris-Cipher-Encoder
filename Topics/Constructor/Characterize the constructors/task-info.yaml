@@ -1,0 +1,24 @@
+type: choice
+is_multiple_choice: true
+options:
+- text: A new object is created by invoking a constructor.
+- text: Every class has a constructor.
+- text: "If the programmer does not provide a constructor for a class, the code cannot\
+    \ compile."
+- text: A constructor cannot contain a body.
+files:
+- name: src/Task.java
+  visible: true
+  text: |
+    // You can experiment here, it won’t be checked
+
+    public class Task {
+      public static void main(String[] args) {
+        // put your code here
+      }
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/3401#comment
+status: Solved
+record: -1
+local_check: false

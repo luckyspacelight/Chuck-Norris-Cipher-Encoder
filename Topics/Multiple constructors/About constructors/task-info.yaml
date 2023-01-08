@@ -1,0 +1,26 @@
+type: choice
+is_multiple_choice: true
+options:
+- text: "If a class has multiple constructors, an instance of the class can be created\
+    \ using only the <b>no-arg constructor</b>."
+- text: The keyword <b>this with parenthesis</b> allows programmers to invoke a constructor
+    from another one.
+- text: "It's possible to define several constructors with the same number, types,\
+    \ and order of parameters."
+- text: It's possible to define as many constructors as needed.
+files:
+- name: src/Task.java
+  visible: true
+  text: |
+    // You can experiment here, it won’t be checked
+
+    public class Task {
+      public static void main(String[] args) {
+        // put your code here
+      }
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/3285#comment
+status: Solved
+record: -1
+local_check: false

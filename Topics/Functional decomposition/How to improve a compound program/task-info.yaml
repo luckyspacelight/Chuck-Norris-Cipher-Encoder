@@ -1,0 +1,23 @@
+type: choice
+is_multiple_choice: false
+options:
+- text: Wrap it in one solid method
+- text: Create a number of separate methods to execute individual tasks
+- text: Just write a new one
+- text: Provide detailed annotation for each line of code
+files:
+- name: src/Task.java
+  visible: true
+  text: |
+    // You can experiment here, it won’t be checked
+
+    public class Task {
+      public static void main(String[] args) {
+        // put your code here
+      }
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/10572#comment
+status: Solved
+record: -1
+local_check: false
