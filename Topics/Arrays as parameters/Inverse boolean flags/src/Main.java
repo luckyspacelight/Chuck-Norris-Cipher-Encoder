@@ -3,8 +3,10 @@ import java.util.stream.Collectors;
 
 public class Main {
 
-    public static void inverseFlags(/* write a parameter here */) {
-        // write your code here
+    public static void inverseFlags(boolean[] flags) {
+        for (int i; i < flags.length; i++) {
+            flags[i] = !(flags[i]);
+        }
     }
 
     /* Do not change code below */

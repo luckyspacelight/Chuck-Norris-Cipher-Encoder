@@ -5,5 +5,8 @@ files:
   text: // write your class here
   learner_created: false
 feedback_link: https://hyperskill.org/learn/step/2985#comment
-status: Unchecked
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: "Thu, 29 Dec 2022 00:13:22 UTC"
 record: -1

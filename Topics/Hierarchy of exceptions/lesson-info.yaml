@@ -1,3 +1,5 @@
 content:
 - Theory
 - UncheckedException
+- Subclasses of RuntimeException
+- BadRequestException

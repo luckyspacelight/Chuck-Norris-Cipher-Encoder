@@ -1,16 +1,24 @@
 class SimpleCalculator {
 
-    // Implement your methods here
-    public static void subtractTwoNumbers...
+    public static void subtractTwoNumbers(long num1, long num2) {
+        System.out.println(num1 - num2);
+    }
 
+    public static void sumTwoNumbers(long num1, long num2) {
+        System.out.println(num1 + num2);
+    }
 
-    public static void sumTwoNumbers...
+    public static void divideTwoNumbers(long num1, long num2) {
+        if (num2 == 0) {
+            System.out.println("Division by 0!");
+        } else {
+            System.out.println(num1 / num2);
+        }
+    }
 
-
-    public static void divideTwoNumbers...
-
-
-    public static void multiplyTwoNumbers...
+    public static void multiplyTwoNumbers(long num1, long num2) {
+        System.out.println(num1 * num2);
+    }
 
     // Implemented method
     public static void power(long n, long p) {
@@ -18,7 +26,7 @@ class SimpleCalculator {
         long power = p;
         long result = 1;
         while (power > 0) {
-            if (power % 2 != 0) {
+            if (power % 2 != 0) { 
                 result *= number;
             }
             power /= 2;

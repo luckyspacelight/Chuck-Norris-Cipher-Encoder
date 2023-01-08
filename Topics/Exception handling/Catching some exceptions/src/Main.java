@@ -5,7 +5,13 @@ public class Main {
     private static String array = null;
 
     public static void methodCatchingSomeExceptions() {
-        // invoke methodThrowingExceptions here and catch some types of exceptions
+        try {
+            methodThrowingExceptions();
+        } catch (ArrayIndexOutOfBoundsException e) {
+            System.out.println("ArrayIndexOutOfBoundsException");
+        } catch (NumberFormatException e) {
+            System.out.println("NumberFormatException");
+        }
     }
 
     /* Do not change code below */

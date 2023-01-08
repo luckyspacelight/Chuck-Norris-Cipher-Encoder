@@ -2,14 +2,14 @@ class Person {
 
 }
 
-class Employee {
+class Employee extends Person {
 
 }
 
-class Doctor {
+class Doctor extends Employee{
 
 }
 
-class Patient {
+class Patient extends Person{
 
 }

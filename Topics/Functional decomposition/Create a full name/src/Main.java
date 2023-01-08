@@ -5,23 +5,14 @@ class Name {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-
-    // use this program as a source of inspiration for your method
-
-        String firstName1 = scanner.next();
-        String lastName1 = scanner.next();
-        System.out.println(firstName1 + " " + lastName1);
-
-        String firstName2 = scanner.next();
-        String lastName2 = scanner.next();
-        System.out.println(firstName2 + " " + lastName2);
-
-        String firstName3 = scanner.next();
-        String lastName3 = scanner.next();
-        System.out.println(firstName3 + " " + lastName3);
-
+        String firstName = scanner.next();
+        String lastName = scanner.next();
+        String fullName = createFullName(firstName,lastName);
+        System.out.println(fullName);
     }
 
     //implement your method here
-    public static String ...
+    public static String createFullName(String fN, String lN) {
+        return fN + " " + lN;
+    }
 }

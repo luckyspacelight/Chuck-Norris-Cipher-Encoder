@@ -6,5 +6,8 @@ files:
     \    private String[] authors;   \n}"
   learner_created: false
 feedback_link: https://hyperskill.org/learn/step/3024#comment
-status: Unchecked
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: "Tue, 20 Dec 2022 21:52:39 UTC"
 record: -1

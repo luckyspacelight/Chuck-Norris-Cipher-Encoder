@@ -12,7 +12,7 @@
 collection
 utils</code></pre>
 <p>A package can contain other packages, and the whole structure resembles directories in a file system. Here is an example project with a simple tree of packages and classes.</p>
-<p style="text-align: center;"><img alt="" src="https://ucarecdn.com/119ac6ef-23fa-44bf-b5cc-a1b104a8f473/"/></p>
+<p style="text-align: center;"><img alt="" height="199" src="https://ucarecdn.com/119ac6ef-23fa-44bf-b5cc-a1b104a8f473/" width="258"/></p>
 <p>At the top of the tree, there is a directory <code class="language-java">src</code>. This is the source root directory. In this tree, the full name of the class <code class="language-java">User</code> is <code class="language-java">org.company.webapp.data.User</code>.</p>
 <p>You can output the full name using the following code:</p>
 <pre><code class="language-java">System.out.println(User.class.getName()); // org.company.webapp.data.User</code></pre>
@@ -23,7 +23,7 @@ public class User {
 }</code></pre>
 <h5 id="avoiding-conflicting-class-names" style="text-align: center;">Avoiding conflicting class names</h5>
 <p>When you use external libraries, two classes may have the same name. Packages allow us to avoid a conflict of class names because the full class name includes the name of the package. So even if two classes from different packages have the same name, their full names will be different. That is, of course, if there are no conflicts between the package names.</p>
-<p>To avoid creating packages with the same names as other public packages, it is generally recommended to start your package hierarchy with the reverse domain name of your company (or another organization). For example:</p>
+<p>To avoid creating packages with the same names as other public packages, it is generally recommended to start your package hierarchy with the reversed domain name of your company (or another organization). For example:</p>
 <pre><code class="language-no-highlight">org.company
 org.hyperskill
 net.labs</code></pre>

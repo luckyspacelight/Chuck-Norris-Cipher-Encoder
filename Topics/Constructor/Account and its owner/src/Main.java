@@ -5,9 +5,9 @@ public class Main {
 
     public static void main(String[] args) {
 
-        // create an instance of Account here
-
-        // pass it into process method
+        final long theBalance = 1000L;
+        Account account = new Account("123456", theBalance, new User("demo-user", "Alexander", "Schmidt"));        
+        process(account);
     }
 
     static class Account {

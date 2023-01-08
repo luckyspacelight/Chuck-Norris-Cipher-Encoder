@@ -1,8 +1,7 @@
 <h2>Roots of quadratic equation</h2>
-<p><p>A quadratic equation is an algebraic equation of degree two. It's easy to solve this equation when you know the <a target="_blank" target="_blank" target="_blank" target="_blank" href="https://en.wikipedia.org/wiki/Quadratic_formula" rel="noopener noreferrer nofollow">quadratic formula</a>.</p>
-
+<p></p>
+<p>A quadratic equation is an algebraic equation of degree two. It's easy to solve this equation when you know the <a href="https://en.wikipedia.org/wiki/Quadratic_formula" rel="noopener noreferrer nofollow" target="_blank">quadratic formula</a>.</p>
 <p>Here is a simple program for calculating the real roots of a quadratic equation:</p>
-
 <pre><code class="language-java">public static void findRoots(double a, double b, double c) {
     // the equation is ax^2 + bx + c = 0
     double discriminant = b * b - 4 * a * c;
@@ -18,9 +17,7 @@
         System.out.println("x2 = " + x2);
     }
 }</code></pre>
-
 <p>What if we change it a bit by decomposing this code and creating additional methods? That's what we get then:</p>
-
 <pre><code class="language-java">public static double calculateDiscriminant(double a, double b, double c) {
     return b * b - 4 * a * c;
 }
@@ -35,15 +32,10 @@ public static void calculateRoots(double a, double b, double c, double discrimin
         System.out.println("x2 = " + x2);
     }
 }</code></pre>
-
 <p><strong>What should the <code class="language-java">main</code> method look like after decomposition?</strong></p>
-
 <p>Make sure that the method produces the correct output and is properly decomposed (no unnecessary actions are performed).</p>
-
 <p><strong>Choose the option:</strong></p>
-
 <p>1)</p>
-
 <pre><code class="language-java">public static void main(String[] args) {
 
     Scanner scanner = new Scanner(System.in);
@@ -61,9 +53,7 @@ public static void calculateRoots(double a, double b, double c, double discrimin
         calculateRoots(a, b, c, discriminant);
     }
 }</code></pre>
-
 <p>2)</p>
-
 <pre><code class="language-java">public static void main(String[] args) {
 
     Scanner scanner = new Scanner(System.in);
@@ -75,9 +65,7 @@ public static void calculateRoots(double a, double b, double c, double discrimin
 
     calculateRoots(a, b, c, discriminant);
 }</code></pre>
-
 <p>3)</p>
-
 <pre><code class="language-java">public static void main(String[] args) {
     
     Scanner scanner = new Scanner(System.in);

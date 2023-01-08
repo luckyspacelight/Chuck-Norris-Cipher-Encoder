@@ -1,3 +1,4 @@
+
 class User {
     private String firstName;
     private String lastName;
@@ -8,14 +9,21 @@ class User {
     }
 
     public void setFirstName(String firstName) {
-        // write your code here
+        if (firstName != null) {
+            this.firstName = firstName;
+        }
     }
 
     public void setLastName(String lastName) {
-        // write your code here
+        if (lastName != null) {
+            this.lastName = lastName;
+        }
     }
 
     public String getFullName() {
-        return ""; // write your code here
+        if  (firstName.isEmpty() && lastName.isEmpty()) {
+            return "Unknown";
+        }
+        return firstName + " " + lastName;
     }
 }

@@ -1,6 +1,8 @@
 // update the class
-class UncheckedException extends ...{
-
+class UncheckedException extends RuntimeException {
+    public UncheckedException() {
+        super();
+    }
 }
 
 //do not change the code

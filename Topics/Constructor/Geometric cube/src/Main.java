@@ -10,8 +10,7 @@ public class Main {
         int height = scanner.nextInt();
         int length = scanner.nextInt(); 
 
-        // creating an instance
-
+        GeometricCuboid cuboid = new GeometricCuboid(width, height, length);
         System.out.println(cuboid.toString());
     }
 }

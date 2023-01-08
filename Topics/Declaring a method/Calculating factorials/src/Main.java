@@ -3,7 +3,11 @@ import java.util.Scanner;
 public class Main {
 
     public static long factorial(long n) {
-        // write your code here
+        long result = 1;
+        for (long i = 1; i <= n; i++) {
+            result *= i;
+        }
+        return result;
     }
 
     /* Do not change code below */

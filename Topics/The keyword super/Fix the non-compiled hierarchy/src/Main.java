@@ -1,11 +1,11 @@
-class Employee {
 
+class Employee {
     protected String name;
     protected String birthDate;
 
     public Employee(String name, String birthDate) {
-        super.name = name;
-        super.birthDate = birthDate;
+        this.name = name;
+        this.birthDate = birthDate;
     }
 }
 
@@ -15,8 +15,8 @@ class RegularEmployee extends Employee {
     protected String hireDate;
 
     public RegularEmployee(String name, String birthDate, long salary, String hireDate) {
-        this(name, birthDate);
-        super.salary = salary;
+        super(name, birthDate);
+        this.salary = salary;
         this.hireDate = hireDate;
     }
 }
@@ -27,7 +27,8 @@ class ContractEmployee extends Employee {
     protected String contractPeriod;
 
     public ContractEmployee(String name, String birthDate, long payPerHour, String contractPeriod) {
+        super(name, birthDate);
         this.payPerHour = payPerHour;
-        super.contractPeriod = contractPeriod;
+        this.contractPeriod = contractPeriod;
     }
 }
